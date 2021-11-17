@@ -1,0 +1,241 @@
+Author: Mitchell Krystofiak
+Description: Output file for Lab2.
+Date: February 11, 2021
+
+
+Enter the size of the array: 11
+-----Already sorted-----
+Quick sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 7.52e-07
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 3.379e-06
+Sorted == TRUE
+
+-----Reverse order-----
+Quick sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 6.49e-07
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 1.641e-06
+Sorted == TRUE
+
+-----Randomly filled-----
+Quick sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 4.76e-07
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 1.593e-06
+Sorted == TRUE
+
+-----Multiple duplicates-----
+Quick sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 6.67e-07
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:26:13 2021
+elapsed time: 1.485e-06
+Sorted == TRUE
+
+-------------
+
+Enter the size of the array: 100
+-----Already sorted-----
+Quick sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 3.2627e-05
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 1.5969e-05
+Sorted == TRUE
+
+-----Reverse order-----
+Quick sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 1.8473e-05
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 1.3829e-05
+Sorted == TRUE
+
+-----Randomly filled-----
+Quick sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 5.993e-06
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 1.6458e-05
+Sorted == TRUE
+
+-----Multiple duplicates-----
+Quick sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 8.551e-06
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:02 2021
+elapsed time: 1.4359e-05
+Sorted == TRUE
+
+----------------
+
+Enter the size of the array: 1000
+-----Already sorted-----
+Quick sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 0.00305609
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 0.000158201
+Sorted == TRUE
+
+-----Reverse order-----
+Quick sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 0.00173722
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 0.00015237
+Sorted == TRUE
+
+-----Randomly filled-----
+Quick sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 8.2293e-05
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 0.000181595
+Sorted == TRUE
+
+-----Multiple duplicates-----
+Quick sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 0.000205295
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:27:36 2021
+elapsed time: 0.000150585
+Sorted == TRUE
+
+--------------
+
+Enter the size of the array: 10000
+-----Already sorted-----
+Quick sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.302986
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.00160611
+Sorted == TRUE
+
+-----Reverse order-----
+Quick sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.177604
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.00157911
+Sorted == TRUE
+
+-----Randomly filled-----
+Quick sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.00117134
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.0020606
+Sorted == TRUE
+
+-----Multiple duplicates-----
+Quick sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.00280863
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:28:04 2021
+elapsed time: 0.00165585
+Sorted == TRUE
+
+--------------------
+
+Enter the size of the array: 100000
+-----Already sorted-----
+Quick sort: 
+finished at Thu Feb 11 09:29:08 2021
+elapsed time: 30.9603
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:29:08 2021
+elapsed time: 0.0175604
+Sorted == TRUE
+
+-----Reverse order-----
+Quick sort: 
+finished at Thu Feb 11 09:29:26 2021
+elapsed time: 17.6098
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:29:26 2021
+elapsed time: 0.0170513
+Sorted == TRUE
+
+-----Randomly filled-----
+Quick sort: 
+finished at Thu Feb 11 09:29:26 2021
+elapsed time: 0.0336778
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:29:26 2021
+elapsed time: 0.0219271
+Sorted == TRUE
+
+-----Multiple duplicates-----
+Quick sort: 
+finished at Thu Feb 11 09:29:26 2021
+elapsed time: 0.0579825
+Sorted == TRUE
+
+Merge sort: 
+finished at Thu Feb 11 09:29:26 2021
+elapsed time: 0.0180128
+Sorted == TRUE
+
+--------------
+
+

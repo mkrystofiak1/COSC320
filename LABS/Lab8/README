@@ -1,0 +1,26 @@
+Author: Mitchell Krystofiak
+
+
+1. This lab was sort of a repeat of my 220 lab, however many of the functions were old and needed an update. For the insert, search
+	and delete functions, they were all updated with the methods learned in 320. The ordering methods are pretty much the same,
+	but the concept was revisited. The main things that are completely new are the transplant, successor, min and max functions
+	that mainly assist the delete algorithm. In summary, definitely a strong reinforcement of my understanding of BSTs, and an
+	improvement of my 220 lab. I also got sick of making a new timing algorithm every lab I do, so I decided to put together a
+	timer class, which is very simple and can be used exactly like a stopwatch.
+
+2.	In terms of insert, the worst case is O(n) where n is the number of nodes. This would happen if you have a completely un
+	balanced tree, for example a straight descending or asscending order, meaning you have to traverse the tree n times. The best
+	case scenario is O(logn), which implies that the tree is more balanced, meaning you only have to traverse the tree logn times,
+	which is comparable with the height of the tree.
+
+	In terms of delete and search, the worst case is similar to the insert, O(n), and the best case is O(logn), because of the 
+	same reasons used for the insertions time complexity. The search would be at the worst of n nodes because in theory, you are
+	searching to the bottom of the tree.
+
+3.	The data does match with the theoretical time complexities, I have plenty of numbers to explain this, including the timing for
+	individual, 1000, 2000, and 10000 element insertions and deletions and random searching of a BST.
+
+4.	My only regret with this program is that it does not simulate a fully balanced, large tree. The code simulates a large skewed
+	tree, and it could be improved to accomodate for balanced, O(logn) time complexities.
+
+

@@ -1,0 +1,23 @@
+//Author: Mitchell Krystofiak
+//Date: March 11, 2021
+
+Note: This is the updated README file for the midterm lab, which will explain the overall objectives of the Lab and the improvements made.
+
+Improvements:
+	- To start, I changed the makefile to compile with std=c++11. The origin	  al Lab did not include this and threw errors compiling on the linux
+	  machine.
+
+	- The data points for the graphing was changed from exponential (10, 100	  1000, etc.) to a more linear relationship (100, 200, 300, 400...) to g	  et a more accurate view at the time complexities of the quick and merg	  e sort algorithms.
+
+	- Each test case was ran with valgrind to detect any possible memory lea	  ks, and every report came up clean and error-less.
+	
+	- Finally, the program was tested in the linux lab to make sure that it 	  compiles without any errors.
+
+Objectives:
+	- The main objective of this lab was to implement the quick and merge so	  rt algorithms and test the theoretical time complexities. It is easy t	  o observe that the merge sort is MUCH faster than the quick sort.
+	
+	- We learn that the Quick sort's best case is O(nlogn) while the worst c	  ase is O(n^2). The overall case of the Merge sort is O(nlogn). Quick s	  orts worst cases are when the array is in order already, and the Merge	  sorts worst case is large randomly allocated.
+
+	- This program specifically tests already sorted arrays, reverse sorted 	  arrays, randomly allocated arrays and arrays with many duplicate eleme	  nts. They consider sizes from 100 to 30,000.
+
+ 

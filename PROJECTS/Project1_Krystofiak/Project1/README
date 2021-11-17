@@ -1,0 +1,30 @@
+//Author: Mitchell Krystofiak
+//Date: March 14, 2021
+
+Summary:
+
+This program is one of my all time favorite programs. I feel as if I have a much better grasp on linear algebra and the applications of matrices. This project has reminded me that there are many more uses to matrices in math and computer science. I remember that Dr. Cone said that linear algebra is just flattened out and shoved into computers. I have yet to grasp the breadth of that.
+
+WHAT WORKS:
+
+Though this project is important, there are imperfections. What does function properly, though, are the addition, subtraction, multiplication, SCALAR multiplication, transpose and all of the private checking functions such as is_Symmetric, is_Upper_T, is_Identity, and a few more. The padding and needs_Padding functions also work and properly pad a matrix if needed for inverse caculations.
+
+WHAT DOESN'T WORK 100%:
+
+Now to the only things that don't work, perhaps the most important thing that should work but doesn't, the inverse. I have worked day after day after day, stayed up late every night buidling up to this submission, but I have failed to perfect the the inverse matrix. I have everthing that needs to be there, I have B, C, CT, and D, as well as all of the support matrices that give you the final inverse matrix. I even resize the matrix after it has been padded to be the appropriate size.
+
+What I believe the problem is is that the inverse does not compensate for non-symmetric matrices. It just assumes that they are symmetric and square. In fact the INVERSE WORKS on the diagonal and symmetric matrices. So my inverse is NOT COMPLETELY BROKEN. 
+
+I would like to say that the project does tell us to assume that the matrix is symmetric and square for the inverse function. But, we also have the formula for what to do if not symmetric, which for the life of me I Could NOT get it to work.
+
+BONUS:
+
+I was planning to attempt the strassen's algorithm, but time caught up to me rapidly. I did however begin to work out the determinant function, which I did not finish. I think this is mainly because I was unsuccessful creating the coFactor function to compute the determinant. I'm not sure if there is partial points for trying, but yeah.
+
+IOMODEL:
+
+As for the actual project objectives, the formatting of the iomodel is gorgeous and easy to read. It prints out the resource in order, computes the output vector of desired results, and tells how much of each product is needed. Now the downside is, the inverse does not work, and thus the numbers are not right. This is also in comparison to the example in the project description. I BELIEVE that a few tweaks would get this project FLAWLESS. Maybe if there is a "redemption" time, similar to that of the midterm lab, I will come back ready to demonstrate this to it's full potential.
+
+DRIVER:
+
+The driver function works flawlessly. This program tests all of the functionality of the program, including the operators, initializations of diagonal, upper and lower triangular, identity, and randommly allocated matrices, transpose, and the partially working inverse. The time complexitiies differed very little in comparison to the sizes i tested. The addition of the 10x10 matrices was less than .000003 seconds, and the multiplication of the two large matrices was less thatn .0000014 seconds. The transpose and all of the other operators finished in similar time stamps. The longest function, as predicted, was the inverse function. This function does have to run recursively. The time for a 4x4 matrix to inverse was .00048 seconds, which will only increase with size and whether or not it needs to padded and checked for symmetry.

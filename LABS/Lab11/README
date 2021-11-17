@@ -1,0 +1,20 @@
+Author: Mitchell Krystofiak
+Date: May 2, 2021
+
+Approach:
+
+For the most part, I followed the same demonstation I used for Lab10: demonstating the addEdge, addVertex, BFS and printing functions. I did add new capabilities to the program, including the DFS() algorithm, which uses a DFSvisit() function to help, a Strongly Connected Component algorithm, which also uses a SCCvisit() assisting function, an updated constructor that now accepts the graph type as a value, either DIRECTED or UNDIRECTED, a Directed Acyclic Graph detection algorithm, and a topological sort algorithm, all of which are derivatives of the routines we learned in lecture.
+
+Time Complexities:
+
+The theoretical time complexities of the DFS algorithm are O(|V| + |E|) where V is the set of nodes and E is the set of edges. The best case occurs when there are less edges and the worst case where there are more/max edges.
+
+The Topological Sort algorithm is O(|V| + |E|), similar to the DFS algorithm, but the algorithm, since it runs a DFS inside and then sorts the list, would actually be O(DFS + |V|log|V|).
+
+The Strongly Connected Component algorithm is also O(|V| + |E|) because it uses the DFS algorithm inside, but similarily to the Topolocical Sort Algorithm, it would actually be O(DFS + |V|log|V|) since there is alos a sort routine.
+
+Improvements:
+
+The code actually covers a lot of ground on graph theory. There is always room for improvement, such as on interface and making it more accessible for a user, or slicing the time complexity down by taking out constants or bettering the number of times DFS is called. 
+
+

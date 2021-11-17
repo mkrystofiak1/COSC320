@@ -1,0 +1,393 @@
+Enter an array size: 10
+Reverse order / Worst case 
+Using bubble sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 4.08e-07
+Sorted == TRUE
+Number of swaps used: 45
+
+Using selection sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 3.35e-07
+Sorted == TRUE
+Number of swaps used: 9
+
+Insertion sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 2.66e-07
+Sorted == TRUE
+Number of swaps used: 9
+
+In order / Best case 
+Using bubble sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 2e-07
+Sorted == TRUE
+Number of swaps used: 0
+
+Using selection sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 1.99e-07
+Sorted == TRUE
+Number of swaps used: 9
+
+Insertion sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 9e-08
+Sorted == TRUE
+Number of swaps used: 9
+
+Random order / Average case 
+Using bubble sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 3.77e-07
+Sorted == TRUE
+Number of swaps used: 24
+
+Using selection sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 3.06e-07
+Sorted == TRUE
+Number of swaps used: 9
+
+Insertion sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 2.02e-07
+Sorted == TRUE
+Number of swaps used: 9
+
+Many duplicates 
+Using bubble sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 2.11e-07
+Sorted == TRUE
+Number of swaps used: 0
+
+Using selection sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 1.99e-07
+Sorted == TRUE
+Number of swaps used: 9
+
+Insertion sort: 
+finished at Thu Feb  4 01:28:43 2021
+elapsed time: 9.1e-08
+Sorted == TRUE
+Number of swaps used: 9
+
+------------------------------------
+
+Enter an array size: 100
+Reverse order / Worst case 
+Using bubble sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 2.7576e-05
+Sorted == TRUE
+Number of swaps used: 4950
+
+Using selection sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 1.0427e-05
+Sorted == TRUE
+Number of swaps used: 99
+
+Insertion sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 1.0351e-05
+Sorted == TRUE
+Number of swaps used: 99
+
+In order / Best case 
+Using bubble sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 8.858e-06
+Sorted == TRUE
+Number of swaps used: 0
+
+Using selection sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 1.0042e-05
+Sorted == TRUE
+Number of swaps used: 99
+
+Insertion sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 3.38e-07
+Sorted == TRUE
+Number of swaps used: 99
+
+Random order / Average case 
+Using bubble sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 2.5118e-05
+Sorted == TRUE
+Number of swaps used: 2391
+
+Using selection sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 1.173e-05
+Sorted == TRUE
+Number of swaps used: 99
+
+Insertion sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 5.676e-06
+Sorted == TRUE
+Number of swaps used: 99
+
+Many duplicates 
+Using bubble sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 1.7082e-05
+Sorted == TRUE
+Number of swaps used: 1879
+
+Using selection sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 1.0818e-05
+Sorted == TRUE
+Number of swaps used: 99
+
+Insertion sort: 
+finished at Thu Feb  4 01:29:57 2021
+elapsed time: 4.203e-06
+Sorted == TRUE
+Number of swaps used: 99
+
+------------------------------------
+
+Enter an array size: 1000
+Reverse order / Worst case 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.0027656
+Sorted == TRUE
+Number of swaps used: 499500
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.00087791
+Sorted == TRUE
+Number of swaps used: 999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.000960884
+Sorted == TRUE
+Number of swaps used: 999
+
+In order / Best case 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.000844086
+Sorted == TRUE
+Number of swaps used: 0
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.000897029
+Sorted == TRUE
+Number of swaps used: 999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 2.687e-06
+Sorted == TRUE
+Number of swaps used: 999
+
+Random order / Average case 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.0019662
+Sorted == TRUE
+Number of swaps used: 253207
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.000937895
+Sorted == TRUE
+Number of swaps used: 999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.000699149
+Sorted == TRUE
+Number of swaps used: 999
+
+Many duplicates 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.00372155
+Sorted == TRUE
+Number of swaps used: 249942
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.000912788
+Sorted == TRUE
+Number of swaps used: 999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:28 2021
+elapsed time: 0.000488397
+Sorted == TRUE
+Number of swaps used: 999
+
+------------------------------------
+
+Enter an array size: 10000
+Reverse order / Worst case 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:47 2021
+elapsed time: 0.323085
+Sorted == TRUE
+Number of swaps used: 49995000
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:47 2021
+elapsed time: 0.0947036
+Sorted == TRUE
+Number of swaps used: 9999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:47 2021
+elapsed time: 0.115094
+Sorted == TRUE
+Number of swaps used: 9999
+
+In order / Best case 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 0.129152
+Sorted == TRUE
+Number of swaps used: 0
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 0.0905957
+Sorted == TRUE
+Number of swaps used: 9999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 2.6584e-05
+Sorted == TRUE
+Number of swaps used: 9999
+
+Random order / Average case 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 0.265834
+Sorted == TRUE
+Number of swaps used: 24633169
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 0.09575
+Sorted == TRUE
+Number of swaps used: 9999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 0.0665918
+Sorted == TRUE
+Number of swaps used: 9999
+
+Many duplicates 
+Using bubble sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 0.226551
+Sorted == TRUE
+Number of swaps used: 25781314
+
+Using selection sort: 
+finished at Thu Feb  4 01:30:48 2021
+elapsed time: 0.0985873
+Sorted == TRUE
+Number of swaps used: 9999
+
+Insertion sort: 
+finished at Thu Feb  4 01:30:49 2021
+elapsed time: 0.0710941
+Sorted == TRUE
+Number of swaps used: 9999
+
+------------------------------------
+
+Enter an array size: 100000
+Reverse order / Worst case 
+Using bubble sort: 
+finished at Thu Feb  4 01:31:38 2021
+elapsed time: 32.0667
+Sorted == TRUE
+Number of swaps used: 4999950000
+
+Using selection sort: 
+finished at Thu Feb  4 01:31:47 2021
+elapsed time: 8.613
+Sorted == TRUE
+Number of swaps used: 99999
+
+Insertion sort: 
+finished at Thu Feb  4 01:31:57 2021
+elapsed time: 9.9406
+Sorted == TRUE
+Number of swaps used: 99999
+
+In order / Best case 
+Using bubble sort: 
+finished at Thu Feb  4 01:32:06 2021
+elapsed time: 8.50851
+Sorted == TRUE
+Number of swaps used: 0
+
+Using selection sort: 
+finished at Thu Feb  4 01:32:15 2021
+elapsed time: 8.9986
+Sorted == TRUE
+Number of swaps used: 99999
+
+Insertion sort: 
+finished at Thu Feb  4 01:32:15 2021
+elapsed time: 0.000273325
+Sorted == TRUE
+Number of swaps used: 99999
+
+Random order / Average case 
+Using bubble sort: 
+finished at Thu Feb  4 01:32:45 2021
+elapsed time: 29.9625
+Sorted == TRUE
+Number of swaps used: 2506758046
+
+Using selection sort: 
+finished at Thu Feb  4 01:32:54 2021
+elapsed time: 9.00215
+Sorted == TRUE
+Number of swaps used: 99999
+
+Insertion sort: 
+finished at Thu Feb  4 01:32:58 2021
+elapsed time: 4.89382
+Sorted == TRUE
+Number of swaps used: 99999
+
+Many duplicates 
+Using bubble sort: 
+finished at Thu Feb  4 01:33:17 2021
+elapsed time: 18.9924
+Sorted == TRUE
+Number of swaps used: 2491989461
+
+Using selection sort: 
+finished at Thu Feb  4 01:33:26 2021
+elapsed time: 8.9766
+Sorted == TRUE
+Number of swaps used: 99999
+
+Insertion sort: 
+finished at Thu Feb  4 01:33:31 2021
+elapsed time: 4.84224
+Sorted == TRUE
+Number of swaps used: 99999
+

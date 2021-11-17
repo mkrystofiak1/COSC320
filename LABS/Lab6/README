@@ -1,0 +1,56 @@
+//Author: Mitchell Krystofiak
+//Description: Lab6 questions
+//Date: March 18, 2021
+
+
+Task 3: Average number of hires: Between 11 and 13, for n between 10 and 1,000,00.
+
+Notes: 
+	- This code pulls in sortingAlgorithms.h and Heap.h from Labs 2 and 3.
+	- Each of the sorting algorithms were edited to return the elapsed time
+	  taken to sort an array and not print out filler comments, such as 
+	  "Finished at...", "Total elapsed time..", "sorted == true". Without this,
+	  the prints would fill the screen rapidly.
+	- Overall very fun program to work with.
+
+Questions:
+
+(a) 	This lab incorporates elements of Lab2 and Lab3, including the quick, merge and heap sort while also 
+	impoving them to return a double that is the elapsed time and implementing a new sort, the random
+	quick sort. The main program uses a shuffle algorithm to produce a randomized array (simulating a 
+ 	random order of canditates from 1..n and their value represents their rank. The hiring algorithm 
+	counts the number of times a new candidate is hired, where the best rank is hired. The program then
+	simulates this and finds the average number of hires. It also runs through 20 different sized arrays
+	to test each of the sorting algorithms and analyze their speeds.
+
+(b)	The best and average cases of all four sorting algorithms is nlogn while merge and heap sort have a worst
+	case of nlogn as well, while quick sort's worst is n^2. 
+
+(c)	If we look at what we predicted for the hiring algorithm, we should be hiring in a logarithmic manner,
+	and the actual number of hires, on average, resemeble our predictions. It works very well in theory, 
+	where say n = 100, if you randomize this selection and 100 is position 1, then you only hire once because
+	of the random nature. So, on average, that highest rank or a high rank will be assigned early on. 
+
+(d)	The worst case for these algorithms is having to sort an already or reverse sorted array (quick and 
+	random quick), but this worst case, though possible, is highly unlikely, which allows the sorting to be 
+	done in average nlogn time.
+
+(e)	I used LibreOffice to plot the time complexities of each sorting algorithm to N number of elements.
+	I then used the insert trendline function to estimate a logarithmic function, which gives us 
+	y = .0408log(x), but y = C x log(x) for any C very small, for example, c == .0004 gives a good estimate
+	of the first million's of values, but there has to be an easier way to figure this out...
+
+(f)	To test the shuffle function, I could think of a few ways. What would probably be a good starter is
+	building another shuffle function, but with a different logic (undetermined at this time), but does
+	accomplish the same thing. Then, compare those results with the shuffle in the program and compare them.
+	Maybe another way to test is to see how frequently you can hit all possible combinations. For example,
+	if you have an array of 10 elements, then you can shuffle it 10! times to see how close you come to 
+	hitting every possible order, the higher the probability to hit a different permutation, the better the
+	shuffle function.
+
+(g)	The program appears to be efficient in terms of what it's trying to accomplish. It directly prints out
+	what we want to see, that is the hiring algorithm in action and the time complexities of the sorting 
+	algorithms. Each of the algorithms have had time to be improved and implemented appropriately, and thus
+	I can assume that they are accurate and time efficient. In terms of usability and robustness, the program	   only addresses array sizes from 10 to 1,000,000 and doesn't account for extreme cases such as abnormally
+ 	large arrays and doesn't allow user input for specifically chosen n. There also may be excessive array 
+	allocation, but to balance there is excessive array deletion. 

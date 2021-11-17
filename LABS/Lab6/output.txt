@@ -1,0 +1,147 @@
+Sample 0 = 837635
+Number of hires: 12
+Sample 1 = 195132
+Number of hires: 11
+Sample 2 = 525562
+Number of hires: 13
+Sample 3 = 811371
+Number of hires: 11
+Sample 4 = 744822
+Number of hires: 7
+Sample 5 = 125691
+Number of hires: 9
+Sample 6 = 833885
+Number of hires: 14
+Sample 7 = 994465
+Number of hires: 15
+Sample 8 = 227482
+Number of hires: 5
+Sample 9 = 289543
+Number of hires: 20
+Average number of hires = 11.7
+
+Sample size: 10000
+Quick: 0.00118549
+R_Quick: 0.00137023
+Merge: 0.00242397
+Heap: 0.00672275
+
+Sample size: 60000
+Quick: 0.00879236
+R_Quick: 0.00938985
+Merge: 0.0144239
+Heap: 0.0453187
+
+Sample size: 110000
+Quick: 0.0154679
+R_Quick: 0.0171442
+Merge: 0.0277118
+Heap: 0.0871509
+
+Sample size: 160000
+Quick: 0.0233433
+R_Quick: 0.0285047
+Merge: 0.0470791
+Heap: 0.131681
+
+Sample size: 210000
+Quick: 0.0310525
+R_Quick: 0.0341512
+Merge: 0.0524403
+Heap: 0.178521
+
+Sample size: 260000
+Quick: 0.0477853
+R_Quick: 0.0437626
+Merge: 0.0706025
+Heap: 0.221608
+
+Sample size: 310000
+Quick: 0.0495247
+R_Quick: 0.049441
+Merge: 0.0788686
+Heap: 0.295111
+
+Sample size: 360000
+Quick: 0.0569398
+R_Quick: 0.0603258
+Merge: 0.0906006
+Heap: 0.336114
+
+Sample size: 410000
+Quick: 0.0673743
+R_Quick: 0.0664428
+Merge: 0.103234
+Heap: 0.370406
+
+Sample size: 460000
+Quick: 0.0735781
+R_Quick: 0.0771729
+Merge: 0.118825
+Heap: 0.428722
+
+Sample size: 510000
+Quick: 0.07988
+R_Quick: 0.0849907
+Merge: 0.137445
+Heap: 0.4737
+
+Sample size: 560000
+Quick: 0.0869613
+R_Quick: 0.0930176
+Merge: 0.147852
+Heap: 0.534007
+
+Sample size: 610000
+Quick: 0.107757
+R_Quick: 0.124017
+Merge: 0.164124
+Heap: 0.590446
+
+Sample size: 660000
+Quick: 0.116824
+R_Quick: 0.118235
+Merge: 0.175208
+Heap: 0.631908
+
+Sample size: 710000
+Quick: 0.107941
+R_Quick: 0.119481
+Merge: 0.202178
+Heap: 0.684022
+
+Sample size: 760000
+Quick: 0.11946
+R_Quick: 0.128945
+Merge: 0.201524
+Heap: 0.754812
+
+Sample size: 810000
+Quick: 0.125248
+R_Quick: 0.137765
+Merge: 0.213933
+Heap: 0.800584
+
+Sample size: 860000
+Quick: 0.140723
+R_Quick: 0.147553
+Merge: 0.226905
+Heap: 0.865438
+
+Sample size: 910000
+Quick: 0.147118
+R_Quick: 0.154689
+Merge: 0.239183
+Heap: 0.919148
+
+Sample size: 960000
+Quick: 0.161838
+R_Quick: 0.180628
+Merge: 0.274844
+Heap: 1.06217
+
+Number of times n changed: 20
+The average time it takes for quick sort is 0.0784396 seconds.
+The average time it takes for random quick sort is 0.0838514 seconds.
+The average time it takes for merge sort is 0.12947 seconds.
+The average time it takes for heap sort is 0.47088 seconds.

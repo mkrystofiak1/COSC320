@@ -1,0 +1,28 @@
+Author: Mitchell Krystofiak
+Date: February 11, 2021
+
+Lab2 README
+
+(a) What is the theoretical time complexity of your sorting algorithms (best and worst case), in termsof the array size?
+
+The best case scenario for the Quick sort is O(nlogn) while the worst case is O(n^2). The average case for the Merge sort algorithm is O(nlogn). In terms of array size, the sorting takes longer for larger arrays, but Merge sort can handle extreme cases as if the difference was negligable, which makes since because the time moves in a logarithmic manner.
+
+(b) How does the absolute timing scale with the number of elements in the array?  The size of the elements?  Can you use the data collected to rectify this with the theoretical time complexity?
+
+Overall, the speed of the sorting algorithm for quick and merge sort goes down with the more elements in the array. The size of the elements, just like Lab1's results, does not matter.
+
+(c) How do the algorithms perform in different cases?  What is the best and worst case, according to your own test results?
+
+According to the results, quick sort's worst cases are in order arrays and reverse order arrays. It's best cases are random arrays which are usually average cases. Merge sorts worst case seems to be a randomly allocated LARGE arrays, though the difference appears completely negligable in comparison with quick and bubble sort. Merge sorts best case is small, randomly allocated arrays.
+
+(d) Do your observations confirm the difference in the best and worst case for Quicksort?  How does Mergesort handle these cases?
+
+The worst case scenario for the quick sort is O(n^2) while the best case is O(nlogn). The observations from the test cases completely confirms this and merge sort handles these cases almost equally, only reaching a maximum of .02~~ seconds for ANY test case.
+
+(e) How do this algorithms compare to your implementation of Bubble sort from Lab 1?
+
+In comparison to bubble sort, quick sort seems to take a longer time than bubble sort for already sorted and reverse order large arrays, but seems to blow bubble sort out of the water for an average case random array and ones with many duplicates. Merge sort completely beats quick and bubble sort in all cases.
+
+(f) How could the code be improved in terms of usability, efficiency, and robustness?
+
+I feel that after coding a lot for a long amount of time, the code can become sloppy. Adding new notation on top of Lab1's code did just that. The code ultimately records the time it takes for both merge and quick sort to sort arrays of small and large sizes, including arrays that are in order, reverse order, randomly ordered and randomly ordered with many duplicates. The program tends to slow down with more elements in the array. The code also could be provide more options for array customization, such as manual entering or specific types of array types. The duplicates scenario could allow a change in the modulo (the default is 10). The randomization is only mod 1000, which could be more realistic with higher numbers, but for the coding algorithms, the size of the number doesn't actually make a difference.

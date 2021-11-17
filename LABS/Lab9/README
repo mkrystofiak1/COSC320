@@ -1,0 +1,13 @@
+Author: Mitchell Krystofiak
+Date: April 15, 2021
+
+(a) My approach to the problem is very similar to that of the BST, since they are very similar structures. Most of the functions were the same as the BST, but there were some edits necessary, one of the biggest being the inclusion of the color element, the balancing tree functions, and the nil pointer. I had many if (nodePtr) functions that would return 0 or 1, but since they were technically not null, I had to fix them to be != nil.
+
+(b) The theoretical time complexity of the RBT for the search, insert and delete functions are guarenteed O(logn) time. Because the tree is balanced, the height of the tree adapts the traversal time to be O(logn) everytime. This is different from the BST tree because the average was O(logn), but this was not a guarentee.
+
+(c) If we directly look at the times needed for each set of elements (1000, 2000, 3000, 4000, 10000), it does line up with O(logn) time (.000351, .000578, .000989, .00124, .0035). It does also beat BST in most cases. If the BST was a straight line, it would take longer. Having a random insert process probably has a more balanced outcome for the BST.
+
+(d) In terms of improvements, fixing the code to compare the BST and RBT by means of percent error or some comparison method might be better when seeing the improvements made on the BST. Another improvement would be to model the Lab1 and Lab2 comparison process and use extreme cases (i.e. a BST with 1,2,3...1000 elements inserted in ascending order). This would help test the bounds of a BST, as well as a RBT, but with a RBT, the time complexity wouldn't be affected much because it is selfbalancing. 
+
+As always, adding a user interface for more precise tesing would be ideal. But in terms of this testing function, user interface isn't required to test the time complexities of the RBT and compare them to the BST.
+

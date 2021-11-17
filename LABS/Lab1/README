@@ -1,0 +1,27 @@
+Author: Mitchell Krystofiak
+
+For this lab, I have decided to make a sorting class that includes bubble, selection and insertion sort. It also includes several utility functions including a swap and print function for the arrays. The sort function combines all of the three sorting algorithms and also records the time it takes for each sorting algorithm to sort successfully. It also counts the number of swaps each algorithm makes.
+
+(a) What is the theoretical time complexity of your sorting algorithms (best and worst case), in terms of the array size?
+
+In theory, the time complexity of each sorting algorithm multiplies by the number of elements that are needed to be processed. The best case for the bubble and insertion sort is a linear, already sorted array, 'n'. The worst case is when the array is reverse sorted, 'n^2'. The best and worst case scenarios of the selection sort are 'n^2'. The average of all three is 'n^2'. It makes sense to see that the best time is linear, but when interpretting a worst case and average case both as 'n^2', it is important to note that the worst case often references the upper bound of the 'n^2' while an average case is anywhere between 'n' and the upper bound of 'n^2'.
+
+
+(b) How does the absolute timing scale with the number of elements in the array? The size of the elements? Can you use the data collected to rectify this with the theoretical time complexity?
+
+The absolute timing scale in relation to the number of elements in the array increases as the array gets bigger. The size of the element does not matter since each integer takes up the same amount of space in the memory.
+
+
+(c) Aggregate your data into a graph of the complexity for the various array sizes, for example a spreadsheet program like LibreOffice Calc or Microsoft Word.
+
+Done: In file labeled "Charts"
+
+
+(d) How do the algorithms perform in different cases? What is the best and worst case, according to your own test results?
+
+According to the data, the insertion sort seems to be the most efficient sorting algorithm for the best, worst and average scenarios. Selection sort is slightly slower than bubble sort for the best and worst case scenario, but bubble sort is much slower for larger arrays. The best case is when the array is already sorted. The worst case is when the array is sorted completely backwards. The average case is when it is a little of both, for which I used the random function to populate these arrays.
+
+
+(e) How could the code be improved in terms of usability, efficiency, and robustnes?
+
+One improvement that could be made is to provide a menu option for the choices of arrays. The program currently generates multiple test scenarios and provides an analysis of that example. The duplicates array only includes 10 of every element. Making this able to be altered would change the time complexity. The reverse order and in order arrays also are limited. Each element of the arrays are only increments or decrements of 1. In reality, this would not be the case. There would be multiple jumps between elements. The default random allocation number only has numbers randomly generated between 1 and 1000, but this could be much larger in reality. Making the program more capable of handling extreme cases would overall improve it's robustness. In terms of the timing of each of the sorting algorithms, I'm sure there are ways to simplify the number of steps taken. Still, there is only so much simplification that can be done. Making sure these programs are the most simplified would ensure the code is efficient.

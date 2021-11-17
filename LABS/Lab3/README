@@ -1,0 +1,26 @@
+Author: Mitchell Krystofiak
+Description: Lab3 Questions
+Date: February 18, 2021
+
+(a) The code I have implemented comes from the pseudo code included in the lab. Initially, I tried to pass a heap pointer into the paramaters of Max_Heapify, Build_Max_Heap and Heap_Sort, however, there were problems with this. The referencing was very tedious. So, I switched to just bringing a heap struct in, which then allowed me to use the '.' notation. It also made using the overloaded operater [] easier to call. There were also less initialization problems in the main. --> I used a struct notation with the primary functions and added in a fill function to randomly fill the array in the heap.
+
+(b) The sorting algorithm in terms of the numbers of elements looks to have a O(nlogn) time complexity. nLogn actually looks very linear, but has a slight slope increase (logn) that makes it take longer for larger arrays
+
+
+(c) Testing arrays with all them in order, reverse order, and randomly allocated.
+
+
+(d) The time it takes for the sorting to be done seems to take longer the more elements there are. But, it will take some extremely large arrays to test the limits of this sorting algorithm, meaning it is very efficient.
+
+
+(e) Aggregating data into a LibreOffice Calc sheet.
+
+
+(f) According to the data, the best case scenario, but not by much, is the reverse order array. For a 10,000,000 element array, it only took 10.98 seconds while the second place was the in order array with 11.26 seconds. The worst case, also not by much, is the Randomly allocated array. In comparison with the other sorting algorithms we have studied, the heap sort COMPLETELY blows every single one out of the park. I couldn't even process 1 million elements on the other programs ( in a realistic time frame of course). But the heap sort, it processed 10 million elements.. in only ~10 seconds!
+
+
+(g) The code seems to be running at peak efficiency. In terms of my coding, there are many lines that could be simplified into fewer lines, and there may be variables that are unnecessary. In terms of robustness, the program only handles arrays that are in order, reverse order and randomly allocated. It also only covers elements up to 1000. There could be an interface to handle specific cases, however I think the program covers the most averagest of cases. In terms of efficiency, especially in comparison with other sorting algorithms, this program is very efficient.
+
+THE ONLY THING I COULDN'T GET (prob cause sleep deprived) WAS THE PRINT OUT HEAP STYLE.
+
+#Note: I only put the long printed out arrays in the output file because My heap tree wasn't working yet, so I wanted to show that my heap operations work properly.

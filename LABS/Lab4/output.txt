@@ -1,0 +1,415 @@
+Allocation Time: 
+finished at Thu Feb 25 09:51:33 2021
+elapsed time: 3.2437e-05
+-----Max Heap-----
+100 mitch
+99 john
+97 john
+99 george
+99 alex
+93 joe
+95 alex
+97 kate
+82 john
+98 kate
+90 megan
+93 felix
+75 joe
+84 george
+92 kate
+82 megan
+69 george
+82 james
+70 sam
+68 sam
+95 megan
+55 kate
+75 john
+57 megan
+66 james
+43 john
+50 alex
+38 kate
+50 megan
+82 john
+90 kate
+62 sam
+78 george
+54 alex
+46 george
+68 george
+73 george
+47 kate
+51 joe
+39 james
+53 megan
+54 kate
+92 mitch
+46 felix
+50 james
+37 george
+58 mitch
+33 megan
+42 john
+64 sam
+52 james
+39 kate
+39 felix
+41 kate
+4 john
+9 joe
+37 john
+2 felix
+8 felix
+5 alex
+39 felix
+16 james
+39 felix
+25 alex
+47 mitch
+1 john
+76 sam
+44 mitch
+27 mitch
+15 joe
+6 joe
+39 mitch
+53 alex
+45 mitch
+60 george
+15 mitch
+42 alex
+28 felix
+40 kate
+7 megan
+23 kate
+36 george
+37 joe
+20 mitch
+31 mitch
+51 alex
+87 sam
+22 sam
+42 george
+36 kate
+39 sam
+37 sam
+37 joe
+27 felix
+33 james
+2 sam
+14 alex
+5 felix
+20 sam
+9 james
+Extract max until the end
+
+mitch
+john
+george
+alex
+kate
+kate
+john
+megan
+alex
+joe
+felix
+mitch
+kate
+megan
+kate
+sam
+george
+megan
+john
+james
+john
+george
+sam
+john
+joe
+george
+sam
+george
+george
+sam
+james
+sam
+sam
+george
+mitch
+megan
+kate
+alex
+kate
+alex
+megan
+james
+joe
+alex
+james
+alex
+megan
+mitch
+kate
+george
+felix
+mitch
+mitch
+john
+alex
+john
+george
+kate
+kate
+mitch
+felix
+james
+kate
+sam
+felix
+felix
+kate
+john
+joe
+george
+joe
+sam
+kate
+george
+james
+megan
+mitch
+felix
+mitch
+felix
+alex
+kate
+sam
+sam
+mitch
+james
+joe
+mitch
+alex
+james
+joe
+felix
+megan
+joe
+felix
+alex
+john
+felix
+sam
+john
+
+
+Allocation Time: 
+finished at Thu Feb 25 09:51:47 2021
+elapsed time: 2.8232e-05
+-----Max Heap-----
+97 alex
+97 megan
+95 kate
+95 megan
+96 mitch
+88 james
+95 john
+95 james
+84 sam
+95 george
+93 mitch
+73 kate
+71 mitch
+65 felix
+69 john
+77 george
+95 sam
+65 felix
+79 mitch
+69 sam
+83 felix
+92 sam
+57 alex
+73 john
+39 george
+64 felix
+67 george
+37 megan
+39 george
+67 james
+59 alex
+61 megan
+72 felix
+74 kate
+73 george
+57 felix
+28 megan
+54 alex
+75 mitch
+30 james
+63 joe
+69 megan
+74 alex
+47 kate
+76 joe
+40 sam
+54 james
+36 kate
+69 john
+14 megan
+11 megan
+47 john
+57 joe
+2 mitch
+65 george
+10 george
+16 george
+16 sam
+20 james
+2 sam
+36 mitch
+42 john
+45 sam
+36 george
+59 george
+45 george
+55 kate
+38 megan
+44 john
+57 george
+20 felix
+49 sam
+37 alex
+11 megan
+13 felix
+35 joe
+29 megan
+66 joe
+70 james
+13 megan
+8 alex
+42 kate
+28 sam
+58 alex
+65 joe
+59 kate
+70 john
+27 joe
+30 sam
+39 kate
+5 alex
+1 mitch
+10 megan
+31 joe
+13 felix
+17 george
+12 john
+50 james
+62 john
+10 felix
+Extract max until the end
+
+alex
+megan
+mitch
+megan
+james
+sam
+george
+kate
+john
+mitch
+sam
+james
+sam
+felix
+mitch
+george
+joe
+mitch
+kate
+alex
+george
+kate
+john
+felix
+mitch
+james
+john
+sam
+megan
+john
+john
+george
+james
+joe
+felix
+joe
+george
+felix
+felix
+joe
+john
+megan
+george
+kate
+alex
+alex
+george
+felix
+alex
+joe
+kate
+alex
+james
+james
+sam
+kate
+john
+george
+sam
+john
+kate
+john
+sam
+kate
+george
+george
+megan
+alex
+megan
+kate
+george
+mitch
+joe
+joe
+sam
+james
+megan
+sam
+megan
+joe
+james
+felix
+george
+sam
+george
+megan
+felix
+felix
+megan
+john
+megan
+megan
+george
+megan
+felix
+alex
+alex
+sam
+mitch
+mitch
+

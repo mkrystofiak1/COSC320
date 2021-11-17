@@ -1,0 +1,142 @@
+Testing the insert function by inserting in the order: 5 3 4 8 7 1.
+Also, recording time for an individual insert.
+
+Elapsed time: 1e-06s
+Elapsed time: 1e-06s
+Elapsed time: 1e-06s
+Elapsed time: 1e-06s
+Elapsed time: 1e-06s
+Elapsed time: 1e-06s
+
+InOrder display: 1 3 4 5 7 8 
+PreOrder display: 5 3 1 4 8 7 
+PostOrder display: 1 4 3 7 8 5 
+
+Testing search function by checking for 8 (in tree) and 10 (not in tree).
+Also, recording the time for an individual search.
+
+Key 8 is in the tree!
+Elapsed time: 1e-06s
+
+Key 10 is not in the tree!
+Elapsed time: 1e-06s
+
+Minimum of the tree is: 1
+Maximum of the tree is: 8
+
+Lets do some more inserts... Inserting 10 (not in tree) and 4 (in tree).
+Node with key 4 already exists!
+
+InOrder display: 1 3 4 5 7 8 10 
+PreOrder display: 5 3 1 4 8 7 10 
+PostOrder display: 1 4 3 7 10 8 5 
+
+Searching for 10 again, now that it is in the tree.
+Key 10 is in the tree!
+
+Testing deletion by removing 1. 
+InOrder display: 3 4 5 7 8 10 
+PreOrder display: 5 3 4 8 7 10 
+PostOrder display: 4 3 7 10 8 5 
+
+Testing deletion by removing 10.
+Also, recording the time of an individual delete.
+Elapsed time: 1e-06s
+
+InOrder display: 3 4 5 7 8 
+PreOrder display: 5 3 4 8 7 
+PostOrder display: 4 3 7 8 5 
+
+Testing deletion by removing 1 again.
+Node with that key does not exist!
+
+
+The successor of some nodes...
+The successor of 3 is 4.
+The successor of 7 is 8.
+
+Now, for some large inserts, deletions and searches. The time will also be recorded.
+
+Inserting 1000 elements.
+Elapsed time: 0.0027s
+
+Searching for a random element 10 times in the BST (1000ish elements).
+Elapsed time: 2e-06s
+Elapsed time: 1e-06s
+Elapsed time: 2e-06s
+Elapsed time: 3e-06s
+Elapsed time: 2e-06s
+Elapsed time: 2e-06s
+Elapsed time: 2e-06s
+Elapsed time: 2e-06s
+Elapsed time: 3e-06s
+Elapsed time: 2e-06s
+
+Now deleting 1000 elements of the tree.
+Elapsed time: 4e-05s
+
+InOrder display: Tree is empty.
+
+
+Inserting 2000 elements.
+Elapsed time: 0.012s
+
+Searching for a random element 10 times in the BST (2000ish elements).
+Elapsed time: 7e-06s
+Elapsed time: 5e-06s
+Elapsed time: 0s
+Elapsed time: 3e-06s
+Elapsed time: 1e-06s
+Elapsed time: 3e-06s
+Elapsed time: 4e-06s
+Elapsed time: 3e-06s
+Elapsed time: 2e-06s
+Elapsed time: 6e-06s
+
+Now deleting 2000 elements of the tree.
+Elapsed time: 7.2e-05s
+
+InOrder display: Tree is empty.
+
+
+Inserting 3000 elements.
+Elapsed time: 0.0271s
+
+Searching for a random element 10 times in the BST (3000ish elements).
+Elapsed time: 9e-06s
+Elapsed time: 5e-06s
+Elapsed time: 4e-06s
+Elapsed time: 5e-06s
+Elapsed time: 3e-06s
+Elapsed time: 1.8e-05s
+Elapsed time: 6e-06s
+Elapsed time: 3e-06s
+Elapsed time: 7e-06s
+Elapsed time: 1.1e-05s
+
+Now deleting 3000 elements of the tree.
+Elapsed time: 0.000122s
+
+InOrder display: Tree is empty.
+
+
+Inserting 10000 elements.
+Elapsed time: 0.304s
+
+Searching for a random element 10 times in the BST (10000ish elements).
+Elapsed time: 1e-05s
+Elapsed time: 1e-05s
+Elapsed time: 2.1e-05s
+Elapsed time: 1.7e-05s
+Elapsed time: 2.1e-05s
+Elapsed time: 9e-06s
+Elapsed time: 1e-06s
+Elapsed time: 3e-06s
+Elapsed time: 6e-06s
+Elapsed time: 1.9e-05s
+
+Now deleting 10000 elements of the tree.
+Elapsed time: 0.00037s
+
+InOrder display: Tree is empty.
+

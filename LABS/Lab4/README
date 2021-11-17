@@ -1,0 +1,19 @@
+Author: Mitchell Krystofiak
+Date: February 25, 2021
+
+
+(a) For this lab, I followed the lab document closely. I implemented an array of HeapObj's, which contained a data value and an int, key for priority. I then used much of the data from Lab 3, the Heap class, and brought in our important functions for heaps: Max_Heapify, Build_Max_Heap, and Heap_Sort. The code also includes all of the required functions, such as extract_max, increase_key, insert and a print function. There are also private methods such as the overloaded operator[] that assist in the functionality of the program.
+
+
+(b) The theoretical time complexity of the algorithm, most notably the insert fuction, is LogN. The Time it takes for this algorithm is very quick, clocking in at less than .00003 seconds for 100 elements. The worst case for this is higher n, but since the time is logn, it remains very efficient 
+
+
+(c) The more elements that are in the heap, the longer it takes to process. The non-asymptotoic function that matches this time complexity is LogN, since the increase_key needs to traverse, at most, up the entire heap.
+
+
+(d) (1) Say you have a grocery store that has a large number of customers. It's the holiday season, and you're store has offered an extensive layaway program, and those who have bought layaway items are served first. You then have a large line building in the front of thestore, and you do not know who the layaway customers are. If you set up a priority queue that scans membership cards for the grocery store, and those who have had a purchase for layaway would be moved up in priority (moved to the layaway line to be handled first). This would beat a normal queue which would handle customers strictly on a first in first out basis.
+
+    (2) Say you are playing a video game that focuses on the fundamentals of survival. This game tends to monitor your health, needs and pretty much anything that makes you tick. Under normal circumstances, you would operate under a normal queue and handle health concerns and obstacles as they come. However, this may prove very ineffective in dire events. For example, say normally you have in your queue to eat, use the bathroom, explore until night, find shelter, and then sleep. However, if a large storm comes about that threatens your safety, it would be more important to move up the priority of finding shelter, but since the game was designed on a queue, you would have to eat, use the bathroom and explore before finding shelter. Another example would be if you got sick. You would prioritize finding medicine or resting, but would be unable to in a queue which is strictly first in first out.
+
+
+(e) The program is fairly impressive collection of heap structures and queue structures. The main thing in terms of effectiveness and usability, the program should offer more interface for adding elements, choosing large lists. Instead, the program has to be changed manually for different test scenarios. 

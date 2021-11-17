@@ -1,0 +1,18 @@
+Project: Lab5
+Author: Mitchell Krystofiak
+Date: March 04, 2021
+
+
+
+(a) I am actually very happy with the structure of the matrix class. I feel as if most things are working just as they should. I took a lot of time to make the code more readable than my other codes (i.e. having plenty of clear to understand descriptions of functions) because I wish to take this specific class beyond 320. I know matrices play an important part of computer science and math, and I feel as if they are going to be good to understand. Of course, there is also the project which demands reusing the matrix class.
+
+In terms of the program testing, it definitely could be better. As of right now, there is no interface to run through multiple different cases. This testing is hard coded to test out conditions of pre-defined matrices such as the Identity, Square, Diagonal, Upper and Lower Triangular, Vector and of course the main operations. Though limited, this does cover every single test scenario, other than more variant matrices.
+
+(b) The time complexity of the matrix multiplication is VERY quick. We defined the multiplication algorithm as big Theta(rows * columns * k) where k is the like dimension. In terms of the test, there is no concrete analysis of this timing algorithm, but for the large matrix test, which involved a matrix of 10x20 size and another of 20x40 size, it only took 4.5648e-05 seconds to complete the multiplication. To better fit the program, more test analysis would be required for larger matrices. We also know that the addition and subtraction of matrices follows big Theta(rows*columns).
+
+(c) Addition: Big theta(n rows * m columns), because the addition needs to parse through the double array using two for loops. Subtraction: Same as the addition, Big theta(n rows * m columns). Multiplication: Big theta(nrows * m columns * k), because the multiplication needs compute sums for each term and it does so by running through 3 for loops.
+
+(d) This code could most certainly be improved. The Lab5.cpp could IMMENSELY be improved. It is strictly hard coded to work with PRESET matrices, one for at least one positive test of the is_* functions. Some of those are obviously more than one. The program only tests 7 matrices in operations, and 2 matrices in the multiplication sector for larger matrices. TO IMPROVE THE PROGRAM: I would need to implement a more user friendly interface that can prebuild particular matrices, or an option to allow users to implement their own numbers into their own arrays. I thought ahead and added in the functions of Inverse, Determinate, Singular, Cofactor and Transpose, but they are not implemented yet, but are needed for the project. Each of the operations are very efficient and move at (for me) mind blowing speeds, especially in comparison to large bubble sorting operations. I enjoyed this lab (tipping hat to Dr. Anderson) for multiple reasons, but mainly because this is SUPER useful. Not that heaps and priority queues are not useful, just that the matrix class makes much more sense to me. AND we have a direct application for it with the project. 
+
+
+****BONUS: SCALAR MULTIPLICATION : DEMOED IN CODE****

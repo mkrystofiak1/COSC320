@@ -1,0 +1,133 @@
+--------------------------------------------------
+We will test the capabilities of the program using
+an undirected graph (G) and a directed graph (H). 
+--------------------------------------------------
+
+-------------------------------------------
+Testing getGraphType(), which returns 0 for
+undirected and 1 for directed.             
+-------------------------- ----------------
+
+Graph G is Undirected.
+Graph H is Directed.
+
+--------------------
+Testing addVertex().
+--------------------
+
+Adding 8 vertices, 1 - 8. 
+Graph G: 
+Vertex: 1 Points to: 
+Vertex: 2 Points to: 
+Vertex: 3 Points to: 
+Vertex: 4 Points to: 
+Vertex: 5 Points to: 
+Vertex: 6 Points to: 
+Vertex: 7 Points to: 
+Vertex: 8 Points to: 
+
+Graph H: 
+Vertex: 1 Points to: 
+Vertex: 2 Points to: 
+Vertex: 3 Points to: 
+Vertex: 4 Points to: 
+Vertex: 5 Points to: 
+Vertex: 6 Points to: 
+Vertex: 7 Points to: 
+Vertex: 8 Points to: 
+
+----------------------------------
+Testing adding duplicate vertices.
+----------------------------------
+
+Graph G: 
+Vertex 7 is already in the graph!
+Vertex 2 is already in the graph!
+Vertex 8 is already in the graph!
+
+Graph H: 
+Vertex 7 is already in the graph!
+Vertex 2 is already in the graph!
+Vertex 8 is already in the graph!
+
+------------------
+Testing addEdge().
+------------------
+
+Graph G: 
+Vertex: 1 Points to: 2 1 5 6 
+Vertex: 2 Points to: 1 
+Vertex: 3 Points to: 6 4 7 
+Vertex: 4 Points to: 3 8 7 
+Vertex: 5 Points to: 1 
+Vertex: 6 Points to: 1 3 
+Vertex: 7 Points to: 3 4 
+Vertex: 8 Points to: 4 
+
+Graph H: 
+Vertex: 1 Points to: 2 5 
+Vertex: 2 Points to: 
+Vertex: 3 Points to: 4 7 
+Vertex: 4 Points to: 
+Vertex: 5 Points to: 6 
+Vertex: 6 Points to: 3 
+Vertex: 7 Points to: 8 
+Vertex: 8 Points to: 
+
+Notice how H is directed, and acyclic, or a DAG, for the sake of topological sort!
+Also notice how the edges in G reciprocate because they are undirected and how the
+edges in H don't.
+
+-------------------------------
+Testing adding duplicate edges.
+-------------------------------
+
+Graph G: 
+The edge pointing from 1 to 2 already exists!
+The edge pointing from 1 to 5 already exists!
+
+Graph H: 
+The edge pointing from 1 to 2 already exists!
+The edge pointing from 1 to 5 already exists!
+
+---------------------------
+Testing Depth First Search.
+---------------------------
+
+Graph G: 
+Depth First Search Print
+
+1 1 4 3 4 3 8 7 6 4 7 1 3 2 1 5 6 
+
+Graph H: 
+Depth First Search Print
+
+8 4 7 3 6 2 5 
+
+-------------------------
+Testing Topological Sort.
+-------------------------
+
+Graph G: 
+
+Graph must be a DAG!
+
+Graph H: 
+
+Topological Sort Print
+
+1's time: 16, 5's time: 15, 6's time: 14, 3's time: 13, 7's time: 12, 8's time: 11, 4's time: 8, 2's time: 3, 
+
+--------------------------------------
+Testing Strongly Connected Components.
+--------------------------------------
+
+Graph G: 
+Graph must be directed to find SCC's.
+
+Graph H: 
+
+Strongly Connected Componenets
+
+8 -> 4 -> 7 -> 3 -> 6 -> 2 -> 5 -> 
+

@@ -1,0 +1,25 @@
+Author: Mitchell Krystofiak
+Date: April 11, 2021
+
+Approach:
+
+The program is actually very simple, but there are a lot of moving parts. I have several different header files working with each other. I have the LinkedList class, which performs all of the Node processing (inserting, searching, etc.) for the hash table to use. The Timer class simply just acts as a c++ stop watch. The Dictionary class uses the LinkedList class to implement a hash table that hashes the value of a string (loaded in by the english.txt file). It then has many functions that give important statistics, such as the largest buckets, smallest buckets, etc. The most helpful part of these functions is the used array that acts as a record keeping array to determine if a bucket is being used. In terms of the spell checking algorithm, the Dictionary class uses two functions: one to create a first list of 1 edited words, which is done by 4 functions: delete, swap, add and replace, and the second calls the same four functions on the 1 edited list (thus making it a two edit list).
+
+Bonus:
+
+I was able to complete the one bonus where I highlight the mispelled words red (thanks google), but, I have struggled with solving memory leaks and was unable to add in the other :(.
+
+Deficiencies:
+
+The number one deficiency I have in the program is the second edit function. As of right now, 10:07 pm on April 11, 2021, there is invalid write sizes when it is called, but it works all the way through with valgrind. I have been trying to find this for several hours now.
+
+**Update: The error is fixed, but kill me with the conditional jump though..
+
+
+Another deficiency I have found is in the english.txt file. There are words that are not in there that should be. For example, the word so, are, nice, and test are not in there. I am not sure why, but they are most definitely words. The file could definitely be a limited version of the english dictionary.
+
+Hashing:
+
+I originally had a huge problem with my hash function. The way I process the array of linked lists used the hash value as an index, and I had used a hash function from lab 7 that made huge hashes. Thus, the index was invalidly writing outside of my total number of buckets(10,007). This is now fixed because I now mod out by the number of buckets I have (10,007) which is the smallest prime over 10,000. And it works like a dream now.
+
+

@@ -1,0 +1,161 @@
+Testing addVertex
+-----------------
+
+Adding 1
+Adding 2
+Adding 3
+Adding 10
+Adding 5
+
+Graph print: 
+Vertex: 1 Points to: 
+Vertex: 2 Points to: 
+Vertex: 3 Points to: 
+Vertex: 5 Points to: 
+Vertex: 10 Points to: 
+
+Testing addEdge
+---------------
+
+Adding edge between 1 and 1
+Adding edge between 1 and 2
+Adding edge between 1 and 3
+Adding edge between 2 and 3
+Adding edge between 3 and 1
+Adding edge between 10 and 3
+Adding edge between 5 and 2
+Adding edge between 3 and 10
+Adding edge between 3 and 5
+
+Graph print: 
+Vertex: 1 Points to: 1 2 3 
+Vertex: 2 Points to: 3 
+Vertex: 3 Points to: 1 10 5 
+Vertex: 5 Points to: 2 
+Vertex: 10 Points to: 3 
+
+Testing extreme adding cases
+----------------------------
+
+Adding 1 (repeat)
+Vertex 1 is already in the graph!
+Adding 10 (repeat)
+Vertex 10 is already in the graph!
+Adding edge between 1 and 1 (repeat)
+The edge pointing from 1 to 1 already exists!
+Adding edge between 2 and 3 (repeat)
+The edge pointing from 2 to 3 already exists!
+
+Graph print: 
+Vertex: 1 Points to: 1 2 3 
+Vertex: 2 Points to: 3 
+Vertex: 3 Points to: 1 10 5 
+Vertex: 5 Points to: 2 
+Vertex: 10 Points to: 3 
+
+Testing BFS algorithm
+---------------------
+
+Breadth First Search Print
+
+Root: 1
+Note: 0 = White, 1 = Gray, 2 = Black
+--------------------------
+Vertex discovered: 1
+Parent: -999
+Color: 2
+Distance from root: 0
+
+Vertex discovered: 2
+Parent: 1
+Color: 2
+Distance from root: 1
+
+Vertex discovered: 3
+Parent: 1
+Color: 2
+Distance from root: 1
+
+Vertex discovered: 5
+Parent: 3
+Color: 2
+Distance from root: 2
+
+Vertex discovered: 10
+Parent: 3
+Color: 2
+Distance from root: 2
+
+Creating new graph for the in class example
+and the functionality of the templating    
+-------------------------------------------
+
+
+Graph print: 
+Vertex: A Points to: 
+Vertex: B Points to: 
+Vertex: C Points to: 
+Vertex: D Points to: 
+Vertex: E Points to: 
+Vertex: F Points to: 
+Vertex: G Points to: 
+Vertex: H Points to: 
+
+Graph print: 
+Vertex: A Points to: B E 
+Vertex: B Points to: A C E 
+Vertex: C Points to: B G 
+Vertex: D Points to: F G 
+Vertex: E Points to: A F B 
+Vertex: F Points to: E D 
+Vertex: G Points to: C D H 
+Vertex: H Points to: G 
+
+Testing BFS algorithm
+---------------------
+
+Breadth First Search Print
+
+Root: A
+Note: 0 = White, 1 = Gray, 2 = Black
+--------------------------
+Vertex discovered: A
+Parent: 
+Color: 2
+Distance from root: 0
+
+Vertex discovered: B
+Parent: A
+Color: 2
+Distance from root: 1
+
+Vertex discovered: C
+Parent: B
+Color: 2
+Distance from root: 2
+
+Vertex discovered: D
+Parent: F
+Color: 2
+Distance from root: 3
+
+Vertex discovered: E
+Parent: A
+Color: 2
+Distance from root: 1
+
+Vertex discovered: F
+Parent: E
+Color: 2
+Distance from root: 2
+
+Vertex discovered: G
+Parent: C
+Color: 2
+Distance from root: 3
+
+Vertex discovered: H
+Parent: G
+Color: 2
+Distance from root: 4
+

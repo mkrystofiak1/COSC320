@@ -1,0 +1,213 @@
+Note: First output includes the printouts of variables inside the hash function. The second one does not
+
+-----------First---------------
+
+Let's try the integer hashing function!
+
+Integer before the hash: 200
+Integer after the hash : w = 32
+p = 11
+a = 9576890767
+ax = 1915378153400
+axmodw = 4117706680
+r = 21
+hash in fun = 1963
+7ab
+
+Integer before the hash: 12345678912
+Integer after the hash : w = 32
+p = 11
+a = 9576890767
+ax = 7552753942422095808
+axmodw = 3321890752
+r = 21
+hash in fun = 1584
+630
+
+Integer before the hash: 1
+Integer after the hash : w = 32
+p = 11
+a = 9576890767
+ax = 9576890767
+axmodw = 986956175
+r = 21
+hash in fun = 470
+1d6
+
+Integer before the hash: 467
+Integer after the hash : w = 32
+p = 11
+a = 9576890767
+ax = 4472407988189
+axmodw = 1347033053
+r = 21
+hash in fun = 642
+282
+
+Integer before the hash: 48572947239
+Integer after the hash : w = 32
+p = 11
+a = 9576890767
+ax = 4009208096418451913
+axmodw = 2711900617
+r = 21
+hash in fun = 1293
+50d
+
+
+Let's try the string hashing function 1!
+
+String before the hash: Dang do I want to pass this class or what
+String after the hash : 877e0
+
+String before the hash: Cockle doodle doo the cow says moo
+String after the hash : 37d08
+
+String before the hash: This is a long string this is a long string this is a long string this is a long string this is a long string
+String after the hash : 1554085
+
+String before the hash: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+String after the hash : 1167c
+
+String before the hash: ZYXWVUTSRQPONMLKJIHGFEDCBA
+String after the hash : 130fe
+
+Note: The above two examples of the alphabet should be different, even tho they contain the same characters!
+
+Let's try the string hashing function 2!
+
+String before the hash: My name is Mitchell Krystofiak
+String after the hash : 4fb377cb
+
+String before the hash: Thank you Dr.Anderson for all of your help
+String after the hash : 32bd8903
+
+String before the hash: This semester is SO stressful
+String after the hash : 4cf3b06e
+
+String before the hash: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+String after the hash : 54d55c59
+
+String before the hash: ZYXWVUTSRQPONMLKJIHGFEDCBA
+String after the hash : 15837a5
+
+Now lets try a slightly larger string! We will use fstream to bring in a text document
+and convert it to a string to process a hash for it!
+Document text : 
+They covered the precious mahogany coffin with a brown amalgam of rocks, decomposed organisms, and weeds. It was my turn to take the shovel, but I felt too ashamed to dutifully send her off when I had not properly said goodbye. I refused to throw dirt on her. I refused to let go of my grandmother, to accept a death I had not seen coming, to believe that an illness could not only interrupt, but steal a beloved life.
+
+When my parents finally revealed to me that my grandmother had been battling liver cancer, I was twelve and I was angry--mostly with myself. They had wanted to protect me--only six years old at the time--from the complex and morose concept of death. However, when the end inevitably arrived, I wasn’t trying to comprehend what dying was; I was trying to understand how I had been able to abandon my sick grandmother in favor of playing with friends and watching TV. Hurt that my parents had deceived me and resentful of my own oblivion, I committed myself to preventing such blindness from resurfacing.
+
+I became desperately devoted to my education because I saw knowledge as the key to freeing myself from the chains of ignorance. While learning about cancer in school I promised myself that I would memorize every fact and absorb every detail in textbooks and online medical journals. And as I began to consider my future, I realized that what I learned in school would allow me to silence that which had silenced my grandmother. However, I was focused not with learning itself, but with good grades and high test scores. I started to believe that academic perfection would be the only way to redeem myself in her eyes--to make up for what I had not done as a granddaughter.  
+
+However, a simple walk on a hiking trail behind my house made me open my own eyes to the truth. Over the years, everything--even honoring my grandmother--had become second to school and grades. As my shoes humbly tapped against the Earth, the towering trees blackened by the forest fire a few years ago, the faintly colorful pebbles embedded in the sidewalk, and the wispy white clouds hanging in the sky reminded me of my small though nonetheless significant part in a larger whole that is humankind and this Earth. Before I could resolve my guilt, I had to broaden my perspective of the world as well as my responsibilities to my fellow humans.   
+
+Volunteering at a cancer treatment center has helped me discover my path. When I see patients trapped in not only the hospital but also a moment in time by their diseases, I talk to them. For six hours a day, three times a week, Ivana is surrounded by IV stands, empty walls, and busy nurses that quietly yet constantly remind her of her breast cancer. Her face is pale and tired, yet kind--not unlike my grandmother’s. I need only to smile and say hello to see her brighten up as life returns to her face. Upon our first meeting, she opened up about her two sons, her hometown, and her knitting group--no mention of her disease. Without even standing up, the three of us—Ivana, me, and my grandmother--had taken a walk together.
+
+Cancer, as powerful and invincible as it may seem, is a mere fraction of a person’s life. It’s easy to forget when one’s mind and body are so weak and vulnerable. I want to be there as an oncologist to remind them to take a walk once in a while, to remember that there’s so much more to life than a disease. While I physically treat their cancer, I want to lend patients emotional support and mental strength to escape the interruption and continue living. Through my work, I can accept the shovel without burying my grandmother’s memory.
+
+Document after the hash: 3ce9439a
+
+
+Should we try a 10 page (condensed sorta) example essay from online? Yes.
+Document text : 
+Keeping Animals in Zoos Not JustifiableA debate that has recently been brought into focus in the public eye is that ofwhether wild animals should be kept in aquariums, zoos, and other wildlife sanctuaries.Recent tragedies, like the one at Sea World in Orlando, Florida, where a trainer wasdragged to her death by a whale, has increased continued scrutiny on the needs of wildlifeand how captivity hinders their physical and psychological well-being. Some argue thatanimals in captivity provide a number of services for both the animal kingdom andhumans. Others contend that the benefits are small or can be achieved by some othermeans. Indeed, when one examines the opinions in favor of keeping wild animals incaptivity, such as in a zoo, one finds that these arguments can be discounted with viablealternatives that are more humane in the treatment of wild animals. In effect, keepinganimals in zoos is not justifiable.One reason that zoos and wildlife sanctuaries are so popular is that they feed amajor tourist industry world-wide (Woods, 2002). Cities certainly do not want to loserevenue by dismantling their zoos. In addition, they argue that zoos provide a way for thepublic to view animals up close which they might never see in person otherwise. Zooofficials also insist that animals in captivity are well cared for and are made comfortablein natural-like settings. However, although the zoological industry goes to great expenseand trouble to provide animals with a simulation of a natural habitat, it is a costly andtime-consuming enterprise. Animals do not typically have access to vegetation. Dirt andgrass contain harmful bacteria, and animals do fight among themselves. Furthermore,Woods (2012) cites some studies that indicate that the educational benefits of zoos are
+KEEPING ANIMALS IN ZOOS NOT JUSTIFIABLE3minimal. Besides, animals tend to stay out of sight of humans if their zoological habitatsallow it. Furthermore, zoo animals suffer from freedom to move and to socialize.Another argument for the existence of zoos is that they are ideally located forscientific monitoring stations. Zoos network to collect and build up a collection of serumbanks and to develop medical record-keeping systems (McNamara, 2007). This hasproven extremely beneficial to identifying and monitoring the spread of deadly,infectious diseases. For example, the West Nile Virus was first identified at a zoologicalinstitution. Prior to the identity of the disease, wild crows began to die in the UnitedStates from unknown causes. It was not until crows at a zoo began to die that the problemwas successfully identified. This virus threatens both animals and humans.The United States General Accounting Office (GAO, 2000) noted the fact thatzoological institutions were instrumental in quickly identifying the virus, which broughtinto focus the value of public and animal health agencies working together in partnershipin studying health issues for humans, domestic animals, wildlife, and animals in captivity.Upon further investigation, GAO also noted that the zoo community was not an integralpart of the public health paradigm and that because zoological institutes were not withinthe federal agency jurisdictions, the diagnosis of the West Nile Virus was much slower incoming than might have otherwise been the case. The diseases that have followed theWest Nile Virus in the past decade, including a serious respiratory syndrome (SARS),monkeypox, H5N1 avain influenza, have increased the pressure to fund and develop biosurveillance capabilities. Because zoos routinely add to serum banks, tissue banks, andmaintain medical record-keeping systems, they are in a unique position to contribute
+KEEPING ANIMALS IN ZOOS NOT JUSTIFIABLE4meaningfully to bio surveillance. Zoos tend to the needs individual animal on a dailybasis, so zoo personnel are quickly attuned to illnesses. In addition, zoos share amongthemselves data banks which collectively provide a wealth of information that can havepositive implications in both human and animal health care and disease prevention(McNamara, 2007). The lack of funding for bio surveillance causes serious disparities inhow much and to what extent biological factors can be studied concerning threats tohumans, agricultural livestock, and wildlife. It has been proposed that one possible sourceof funding is to have public-health professionals to work with zoo professionals to createelectronic surveillance networks (McNamara, 2007). The problem with the argument thatzoos provide opportunities for bio surveillance is that public-health officials do notpresently work with zoo agencies in this capacity. If funding can be found for such apartnership, why can it not be used to monitor animals in their natural habitat for signs ofdiseases? Animals in the wild, including in the ocean, are already tagged for researchstudies.Basically, some human-animal relationships can benefit both humans andanimals, such as illustrated with the West Nile Virus example (Zamir, 2006). However,Bostock (1993) argues that placing animals in zoos is cruel. He acknowledges that zooanimals cannot be considered wild animals since the majority are born in captivity. Healso concedes that zoo animals live longer, healthier lives than those in the wild. Still, hestates that those arguments are not sufficient for supporting the captivity of animals inzoos, that they are not inherently dependent on humans for survival. If left in their naturalinhabitant unbothered by humans, they will survive as nature intended. Another argumentagainst zoos is that animals in captivity have limited space. They do not have the space
+KEEPING ANIMALS IN ZOOS NOT JUSTIFIABLE5they would in their natural habitat (Zamir, 2006). This has recently been brought to thepublic’s attention with news media stories of trainers, such as those who interacted withwhales, being killed. The argument is that whales in their natural habitat swim manymiles a day but are severely limited from doing so when they remain in captivity byhumans. This may cause them to act out in violent ways.In summary, zoos are not needed. Individuals can learn much from watchingdocumentaries of wild animals filmed in their natural habitats, much more so thanvisiting a zoo. Plus, surveillance equipment can help monitor wildlife activity so that datacan be gathered and studied for various purposes. Finally, to keep a wild animal thatwould otherwise not be dependent on human contact from roaming in its natural habitat,free to interact with nature and socialize with other wildlife is unconscionable. Societyneeds to re-evaluate the use of zoos and other such organizations to determine how to endor modify their present use and existence. 
+
+
+Document after the hash: 3849ca48
+
+
+----------Second----------------
+
+
+
+Let's try the integer hashing function!
+
+Integer before the hash: 200
+Integer after the hash : hash in fun = 1963
+7ab
+
+Integer before the hash: 12345678912
+Integer after the hash : hash in fun = 1584
+630
+
+Integer before the hash: 1
+Integer after the hash : hash in fun = 470
+1d6
+
+Integer before the hash: 467
+Integer after the hash : hash in fun = 642
+282
+
+Integer before the hash: 48572947239
+Integer after the hash : hash in fun = 1293
+50d
+
+
+Let's try the string hashing function 1!
+
+String before the hash: Dang do I want to pass this class or what
+String after the hash : 877e0
+
+String before the hash: Cockle doodle doo the cow says moo
+String after the hash : 37d08
+
+String before the hash: This is a long string this is a long string this is a long string this is a long string this is a long string
+String after the hash : 1554085
+
+String before the hash: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+String after the hash : 1167c
+
+String before the hash: ZYXWVUTSRQPONMLKJIHGFEDCBA
+String after the hash : 130fe
+
+Note: The above two examples of the alphabet should be different, even tho they contain the same characters!
+
+Let's try the string hashing function 2!
+
+String before the hash: My name is Mitchell Krystofiak
+String after the hash : 4fb377cb
+
+String before the hash: Thank you Dr.Anderson for all of your help
+String after the hash : 32bd8903
+
+String before the hash: This semester is SO stressful
+String after the hash : 4cf3b06e
+
+String before the hash: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+String after the hash : 54d55c59
+
+String before the hash: ZYXWVUTSRQPONMLKJIHGFEDCBA
+String after the hash : 15837a5
+
+Now lets try a slightly larger string! We will use fstream to bring in a text document
+and convert it to a string to process a hash for it!
+Document text : 
+They covered the precious mahogany coffin with a brown amalgam of rocks, decomposed organisms, and weeds. It was my turn to take the shovel, but I felt too ashamed to dutifully send her off when I had not properly said goodbye. I refused to throw dirt on her. I refused to let go of my grandmother, to accept a death I had not seen coming, to believe that an illness could not only interrupt, but steal a beloved life.
+
+When my parents finally revealed to me that my grandmother had been battling liver cancer, I was twelve and I was angry--mostly with myself. They had wanted to protect me--only six years old at the time--from the complex and morose concept of death. However, when the end inevitably arrived, I wasn’t trying to comprehend what dying was; I was trying to understand how I had been able to abandon my sick grandmother in favor of playing with friends and watching TV. Hurt that my parents had deceived me and resentful of my own oblivion, I committed myself to preventing such blindness from resurfacing.
+
+I became desperately devoted to my education because I saw knowledge as the key to freeing myself from the chains of ignorance. While learning about cancer in school I promised myself that I would memorize every fact and absorb every detail in textbooks and online medical journals. And as I began to consider my future, I realized that what I learned in school would allow me to silence that which had silenced my grandmother. However, I was focused not with learning itself, but with good grades and high test scores. I started to believe that academic perfection would be the only way to redeem myself in her eyes--to make up for what I had not done as a granddaughter.  
+
+However, a simple walk on a hiking trail behind my house made me open my own eyes to the truth. Over the years, everything--even honoring my grandmother--had become second to school and grades. As my shoes humbly tapped against the Earth, the towering trees blackened by the forest fire a few years ago, the faintly colorful pebbles embedded in the sidewalk, and the wispy white clouds hanging in the sky reminded me of my small though nonetheless significant part in a larger whole that is humankind and this Earth. Before I could resolve my guilt, I had to broaden my perspective of the world as well as my responsibilities to my fellow humans.   
+
+Volunteering at a cancer treatment center has helped me discover my path. When I see patients trapped in not only the hospital but also a moment in time by their diseases, I talk to them. For six hours a day, three times a week, Ivana is surrounded by IV stands, empty walls, and busy nurses that quietly yet constantly remind her of her breast cancer. Her face is pale and tired, yet kind--not unlike my grandmother’s. I need only to smile and say hello to see her brighten up as life returns to her face. Upon our first meeting, she opened up about her two sons, her hometown, and her knitting group--no mention of her disease. Without even standing up, the three of us—Ivana, me, and my grandmother--had taken a walk together.
+
+Cancer, as powerful and invincible as it may seem, is a mere fraction of a person’s life. It’s easy to forget when one’s mind and body are so weak and vulnerable. I want to be there as an oncologist to remind them to take a walk once in a while, to remember that there’s so much more to life than a disease. While I physically treat their cancer, I want to lend patients emotional support and mental strength to escape the interruption and continue living. Through my work, I can accept the shovel without burying my grandmother’s memory.
+
+Document after the hash: 3ce9439a
+
+
+Should we try a 10 page (condensed sorta) example essay from online? Yes.
+Document text : 
+Keeping Animals in Zoos Not JustifiableA debate that has recently been brought into focus in the public eye is that ofwhether wild animals should be kept in aquariums, zoos, and other wildlife sanctuaries.Recent tragedies, like the one at Sea World in Orlando, Florida, where a trainer wasdragged to her death by a whale, has increased continued scrutiny on the needs of wildlifeand how captivity hinders their physical and psychological well-being. Some argue thatanimals in captivity provide a number of services for both the animal kingdom andhumans. Others contend that the benefits are small or can be achieved by some othermeans. Indeed, when one examines the opinions in favor of keeping wild animals incaptivity, such as in a zoo, one finds that these arguments can be discounted with viablealternatives that are more humane in the treatment of wild animals. In effect, keepinganimals in zoos is not justifiable.One reason that zoos and wildlife sanctuaries are so popular is that they feed amajor tourist industry world-wide (Woods, 2002). Cities certainly do not want to loserevenue by dismantling their zoos. In addition, they argue that zoos provide a way for thepublic to view animals up close which they might never see in person otherwise. Zooofficials also insist that animals in captivity are well cared for and are made comfortablein natural-like settings. However, although the zoological industry goes to great expenseand trouble to provide animals with a simulation of a natural habitat, it is a costly andtime-consuming enterprise. Animals do not typically have access to vegetation. Dirt andgrass contain harmful bacteria, and animals do fight among themselves. Furthermore,Woods (2012) cites some studies that indicate that the educational benefits of zoos are
+KEEPING ANIMALS IN ZOOS NOT JUSTIFIABLE3minimal. Besides, animals tend to stay out of sight of humans if their zoological habitatsallow it. Furthermore, zoo animals suffer from freedom to move and to socialize.Another argument for the existence of zoos is that they are ideally located forscientific monitoring stations. Zoos network to collect and build up a collection of serumbanks and to develop medical record-keeping systems (McNamara, 2007). This hasproven extremely beneficial to identifying and monitoring the spread of deadly,infectious diseases. For example, the West Nile Virus was first identified at a zoologicalinstitution. Prior to the identity of the disease, wild crows began to die in the UnitedStates from unknown causes. It was not until crows at a zoo began to die that the problemwas successfully identified. This virus threatens both animals and humans.The United States General Accounting Office (GAO, 2000) noted the fact thatzoological institutions were instrumental in quickly identifying the virus, which broughtinto focus the value of public and animal health agencies working together in partnershipin studying health issues for humans, domestic animals, wildlife, and animals in captivity.Upon further investigation, GAO also noted that the zoo community was not an integralpart of the public health paradigm and that because zoological institutes were not withinthe federal agency jurisdictions, the diagnosis of the West Nile Virus was much slower incoming than might have otherwise been the case. The diseases that have followed theWest Nile Virus in the past decade, including a serious respiratory syndrome (SARS),monkeypox, H5N1 avain influenza, have increased the pressure to fund and develop biosurveillance capabilities. Because zoos routinely add to serum banks, tissue banks, andmaintain medical record-keeping systems, they are in a unique position to contribute
+KEEPING ANIMALS IN ZOOS NOT JUSTIFIABLE4meaningfully to bio surveillance. Zoos tend to the needs individual animal on a dailybasis, so zoo personnel are quickly attuned to illnesses. In addition, zoos share amongthemselves data banks which collectively provide a wealth of information that can havepositive implications in both human and animal health care and disease prevention(McNamara, 2007). The lack of funding for bio surveillance causes serious disparities inhow much and to what extent biological factors can be studied concerning threats tohumans, agricultural livestock, and wildlife. It has been proposed that one possible sourceof funding is to have public-health professionals to work with zoo professionals to createelectronic surveillance networks (McNamara, 2007). The problem with the argument thatzoos provide opportunities for bio surveillance is that public-health officials do notpresently work with zoo agencies in this capacity. If funding can be found for such apartnership, why can it not be used to monitor animals in their natural habitat for signs ofdiseases? Animals in the wild, including in the ocean, are already tagged for researchstudies.Basically, some human-animal relationships can benefit both humans andanimals, such as illustrated with the West Nile Virus example (Zamir, 2006). However,Bostock (1993) argues that placing animals in zoos is cruel. He acknowledges that zooanimals cannot be considered wild animals since the majority are born in captivity. Healso concedes that zoo animals live longer, healthier lives than those in the wild. Still, hestates that those arguments are not sufficient for supporting the captivity of animals inzoos, that they are not inherently dependent on humans for survival. If left in their naturalinhabitant unbothered by humans, they will survive as nature intended. Another argumentagainst zoos is that animals in captivity have limited space. They do not have the space
+KEEPING ANIMALS IN ZOOS NOT JUSTIFIABLE5they would in their natural habitat (Zamir, 2006). This has recently been brought to thepublic’s attention with news media stories of trainers, such as those who interacted withwhales, being killed. The argument is that whales in their natural habitat swim manymiles a day but are severely limited from doing so when they remain in captivity byhumans. This may cause them to act out in violent ways.In summary, zoos are not needed. Individuals can learn much from watchingdocumentaries of wild animals filmed in their natural habitats, much more so thanvisiting a zoo. Plus, surveillance equipment can help monitor wildlife activity so that datacan be gathered and studied for various purposes. Finally, to keep a wild animal thatwould otherwise not be dependent on human contact from roaming in its natural habitat,free to interact with nature and socialize with other wildlife is unconscionable. Societyneeds to re-evaluate the use of zoos and other such organizations to determine how to endor modify their present use and existence. 
+
+
+Document after the hash: 3849ca48
+

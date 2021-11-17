@@ -1,0 +1,10 @@
+Author: Mitchell Krystofiak
+Date: April 22, 2021
+
+(a) For this lab, I used the std libraries of map, queue and vector to implement the graph structure and perform the Breadth First Search algorithm. I implemented the addVertex and addEdge function to not take repeats, and allow up to one loop. The BFS algorithm uses three different maps: one for color, one for parent and one for the distance. I first initialize the colors all to white in the vertices list, initialize the parent lists to a -999, and the distance number to a large number resembling infinity. I then follow the notes algorithm and use queues to search the graph.
+
+(b) As we discussed in class, the theoretical time complexity of the BFS should be O(V + E), where V is the vertices and E is the edges. We have to consider edge cases, where the best situation is 0 edges, and the worst case is the maximum number of edges, including loops. In other words, a complete graph. This would have up to V^2 edges.
+
+(c) I feel as if the abstraction of this program is there already because the queue data structure required me to use the templating feature, and I can now use the program for any datatype, as demonstrated in the main. The only way to make this work better is to add a feature to add in user inputed vertices and edges, and maybe add a function to make an undirected edge. The current program requires a double edge initialization, one going one way and the other going the other way. I also would like to add some isomorphism functions to this, such as comparing two graphs to see if they are equal (automorphism) or edge preserving of each other via a function f: V(G) -> V(H) (isomorphism).
+
+I realize now that this structure is probably more likely to be used in Project 3 than my initial thought of linked lists.
